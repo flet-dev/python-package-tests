@@ -13,7 +13,7 @@ def main(page: ft.Page):
                 from websockets.sync.client import connect
 
                 page.add(ft.Text("from websockets.sync.client import connect - OK"))
-                with connect("ws://localhost:8765") as websocket:
+                with connect("wss://echo.websocket.org") as websocket:
                     websocket.send("Hello world!")
                     message = websocket.recv()
                     print(f"Received: {message}")
