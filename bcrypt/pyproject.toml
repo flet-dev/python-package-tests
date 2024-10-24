@@ -1,0 +1,10 @@
+[project]
+
+name = "bcrypt_app"
+version = "1.0.0"
+description = ""
+authors = [{name = "Flet Developer", email = "your@email.com"}]
+dependencies = ["flet==0.25.0.dev3526", "bcrypt"]
+
+[tool.flet]
+android.adaptive_icon_background = "#ffffff"
