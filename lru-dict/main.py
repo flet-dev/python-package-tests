@@ -18,8 +18,7 @@ def main(page: ft.Page):
                 data[3] = None
                 data[1]
                 data[4] = None
-                assert data.keys == [4, 1, 3]
-
+                assert data.keys() == [4, 1, 3]
                 page.add(ft.Text("lru-dict: test_basic - OK"))
             except Exception as e:
                 page.add(ft.Text(f"lru-dict: test_basic - error: {e}", selectable=True))
