@@ -39,14 +39,3 @@ def main(page: ft.Page):
 
 
 ft.app(main)
-
-import freetype
-
-face = freetype.Face("Vera.ttf")
-# face = freetype.Face(
-#     "/Users/inesa/projects/flet-dev/python-package-tests/freetype/Vera.ttf"
-# )
-face.set_char_size(48 * 64)
-face.load_char("S")
-bitmap = face.glyph.bitmap
-print(bitmap.buffer)
