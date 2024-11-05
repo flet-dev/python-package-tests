@@ -1,10 +1,10 @@
 [project]
 
-name = "websockets_app"
+name = "sqlite_app"
 version = "1.0.0"
 description = ""
 authors = [{name = "Flet Developer", email = "your@email.com"}]
-dependencies = ["flet==0.25.0.dev3673", "websockets"]
+dependencies = ["flet==0.25.0.dev3673"]
 
 [tool.flet]
 android.adaptive_icon_background = "#ffffff"

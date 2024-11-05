@@ -1,7 +1,8 @@
-# import io
-# from os.path import dirname, join
+import io
 
 import flet as ft
+
+# from os.path import dirname, join
 
 
 def main(page: ft.Page):
@@ -14,8 +15,9 @@ def main(page: ft.Page):
 
                 page.add(ft.Text("import matplotlib: OK"))
 
-                import matplotlib.pyplot as plt
                 from flet.matplotlib_chart import MatplotlibChart
+
+                import matplotlib.pyplot as plt
 
                 matplotlib.use("svg")
                 fig, ax = plt.subplots()
