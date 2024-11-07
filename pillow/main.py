@@ -32,8 +32,9 @@ def main(page: ft.Page):
                 )
 
                 page.add(ft.Text("pillow: test_basic - OK"))
+
             except Exception as e:
-                page.add(ft.Text(f"pillow: test_basic - error: {e}"))
+                page.add(ft.Text(f"pillow: test_basic - error: {e}", selectable=True))
 
         def test_font():
             try:
