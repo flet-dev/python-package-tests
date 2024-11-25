@@ -35,7 +35,23 @@ def main(page: ft.Page):
             except Exception as e:
                 page.add(ft.Text(f"lxml: test_basic - error: {e}", selectable=True))
 
+        def test_xsl():
+            try:
+                from lxml import etree
+
+                dom = etree.parse("test.xml")
+                xsl = etree.parse("test_xsl.xsl")
+                transform = etree.XSLT(xsl)
+                output_json = str(transform(dom))
+                cleaned_json = output_json.replace("\n", "")
+                print(cleaned_json)
+                page.add(ft.Text("lxml: test_xsl - OK"))
+
+            except Exception as e:
+                page.add(ft.Text(f"lxml: test_xsl - error: {e}", selectable=True))
+
         test_basic()
+        test_xsl()
 
     page.add(
         ft.SafeArea(

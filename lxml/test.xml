@@ -1,0 +1,14 @@
+<userInfo>
+    <locale>en</locale>
+    <first_name>Tejas</first_name>
+    <last_name>Bhandari</last_name>
+    <dob>1991-10-02</dob>
+    <tin>1011657001</tin>
+    <phone_number>+91-9988776655</phone_number>
+    <address>
+        <street>Park Street</street>
+        <city>Dothan</city>
+        <state>AL</state>
+        <zip_code>35060</zip_code>
+    </address>
+</userInfo>
