@@ -5,6 +5,7 @@ import flet as ft
 
 def main(page: ft.Page):
     page.title = "Flet libs test"
+    page.scroll = ft.ScrollMode.AUTO
 
     def shapely_tests(e):
 
