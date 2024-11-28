@@ -4,7 +4,7 @@ name = "numpy_app"
 version = "1.0.0"
 description = ""
 authors = [{name = "Flet Developer", email = "your@email.com"}]
-dependencies = ["flet==0.25.0.dev3673", "numpy"]
+dependencies = ["flet==0.25.0", "numpy"]
 
 [tool.flet]
 android.adaptive_icon_background = "#ffffff"
