@@ -40,11 +40,11 @@ def main(page: ft.Page):
                 assert shapely.contains(polygon, geoms)[1] == True
                 assert shapely.contains(polygon, geoms)[2] == False
 
-                page.add(ft.Text("shapely: test_basic - OK"))
+                page.add(ft.Text("shapely: test_with_numpy - OK"))
             except Exception as e:
                 page.add(
                     ft.Text(
-                        f"shapely: test_basic - error: {traceback.format_exc()}",
+                        f"shapely: test_with_numpy - error: {traceback.format_exc()}",
                         selectable=True,
                     )
                 )
