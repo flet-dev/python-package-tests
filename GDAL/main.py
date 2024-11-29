@@ -13,6 +13,11 @@ def main(page: ft.Page):
         def test_basic():
 
             try:
+                import sys
+
+                from osgeo import gdal
+
+                # https://github.com/OSGeo/gdal/blob/master/swig/python/gdal-utils/osgeo_utils/samples/gdal_create_pdf.py
 
                 page.add(ft.Text("GDAL: test_basic - OK"))
             except Exception as e:
