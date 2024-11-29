@@ -4,7 +4,7 @@ name = "shapely_app"
 version = "1.0.0"
 description = ""
 authors = [{name = "Flet Developer", email = "your@email.com"}]
-dependencies = ["flet==0.25.0", "geopandas"]
+dependencies = ["flet==0.25.0", "geopandas", "pandas"]
 
 [tool.flet]
 android.adaptive_icon_background = "#ffffff"
