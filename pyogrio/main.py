@@ -1,3 +1,4 @@
+import os
 import traceback
 
 import flet as ft
@@ -5,6 +6,7 @@ import flet as ft
 
 def main(page: ft.Page):
     page.title = "Flet libs test"
+    page.scroll = ft.ScrollMode.AUTO
 
     def pyogrio_tests(e):
 
@@ -15,8 +17,13 @@ def main(page: ft.Page):
 
                 print(list_drivers())
 
-                page.add(ft.Text("pyogrio: test_basic - OK"))
+                from pyogrio import list_layers
 
+                os.environ["SHAPE_RESTORE_SHX"] = "YES"
+
+                list_layers("ne_10m_admin_0_countries.shp")
+
+                page.add(ft.Text("pyogrio: test_basic - OK"))
             except Exception as e:
                 page.add(
                     ft.Text(
@@ -25,7 +32,24 @@ def main(page: ft.Page):
                     )
                 )
 
+        def test_with_dataframes():
+
+            try:
+                from pyogrio import read_info
+
+                read_info("ne_10m_admin_0_countries.shp")
+
+                page.add(ft.Text("pyogrio: test_with_dataframes - OK"))
+            except Exception as e:
+                page.add(
+                    ft.Text(
+                        f"pyogrio: test_with_dataframes - error: {traceback.format_exc()}",
+                        selectable=True,
+                    )
+                )
+
         test_basic()
+        test_with_dataframes()
 
     page.add(
         ft.SafeArea(
