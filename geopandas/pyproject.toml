@@ -1,6 +1,6 @@
 [project]
 
-name = "shapely_app"
+name = "geopandas_app"
 version = "1.0.0"
 description = ""
 authors = [{name = "Flet Developer", email = "your@email.com"}]
