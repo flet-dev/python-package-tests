@@ -15,7 +15,7 @@ To test an app on iPhone simulator
 5. On prompt, select iPhone simulator as your device -> the app will open in Simulator
 4. Open the app and click on the button to run the test.
 
-| Name          | Version      |
+| Name          | Version      | Tests         |
 |---------------|--------------|
 | aiohttp       | 3.9.5 | 
 | argon2-cffi-bindings | 21.2.0 |
