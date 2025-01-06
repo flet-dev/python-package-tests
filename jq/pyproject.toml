@@ -1,10 +1,10 @@
 [project]
 
-name = "pandas_app"
+name = "jq_app"
 version = "1.0.0"
 description = ""
 authors = [{name = "Flet Developer", email = "your@email.com"}]
-dependencies = ["flet==0.25.2", "pandas"]
+dependencies = ["flet==0.25.2", "jq"]
 
 [tool.flet]
 android.adaptive_icon_background = "#ffffff"
