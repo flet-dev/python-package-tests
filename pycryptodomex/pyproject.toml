@@ -4,7 +4,7 @@ name = "pycryptodomex_app"
 version = "1.0.0"
 description = ""
 authors = [{name = "Flet Developer", email = "your@email.com"}]
-dependencies = ["flet==0.25.1", "pycryptodomex"]
+dependencies = ["flet==0.25.2", "pycryptodomex"]
 
 [tool.flet]
 android.adaptive_icon_background = "#ffffff"
