@@ -30,7 +30,7 @@ To test an app on iPhone simulator
 | GDAL | 3.10.0 | |
 | google-crc32 | 1.6.0 | |
 | grpcio | 1.67.1 | |
-| jq | 1.8.0 |flet==0.25.2 :white_check_mark: android [x] iOS |
+| jq | 1.8.0 |flet==0.25.2 :white_check_mark: android:white_check_mark: iOS:white_check_mark: |
 | kiwisolver | 1.4.7 | |
 | lru-dict | 1.3.0 | |
 | lxml | 5.3.0 | |
