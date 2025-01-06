@@ -39,7 +39,7 @@ To test an app on iPhone simulator
 | msgpack | 1.1.0 | |
 | msgspec | 0.8.16 | |
 | numpy | 2.1.1 | |
-| numpy | 1.26.4 | |
+| numpy | 1.26.4 |flet==0.25.2 android:white_check_mark: iOS:x: |
 | opaque | 0.2.0 | |
 | opencv-python | 4.10.0.84 | |
 | pandas | 2.2.2 | |
