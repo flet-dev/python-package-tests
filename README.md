@@ -15,7 +15,7 @@ To test an app on iPhone simulator
 5. On prompt, select iPhone simulator as your device -> the app will open in Simulator
 4. Open the app and click on the button to run the test.
 
-| Name          | Version      | Tests
+| Name          | Version      |
 |---------------|--------------|
 | aiohttp       | 3.9.5 | 
 | argon2-cffi-bindings | 21.2.0 |
@@ -30,7 +30,7 @@ To test an app on iPhone simulator
 | GDAL | 3.10.0 |
 | google-crc32 | 1.6.0 |
 | grpcio | 1.67.1 |
-| jq | 1.8.0 | flet == 0.25.2 android and iOS pass
+| jq | 1.8.0 |
 | kiwisolver | 1.4.7 |
 | lru-dict | 1.3.0 |
 | lxml | 5.3.0 |
