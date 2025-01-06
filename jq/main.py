@@ -8,6 +8,10 @@ def main(page: ft.Page):
         def test_basic():
             try:
 
+                import jq
+
+                assert jq.compile(".+5").input_value(42).first() == 47
+
                 page.add(ft.Text("jq: test_basic - OK"))
             except Exception as e:
                 page.add(ft.Text(f"jq: test_basic - error: {e}", selectable=True))
