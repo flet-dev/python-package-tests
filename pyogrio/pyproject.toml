@@ -4,7 +4,7 @@ name = "pyogrio_app"
 version = "1.0.0"
 description = ""
 authors = [{name = "Flet Developer", email = "your@email.com"}]
-dependencies = ["flet==0.25.1", "pyogrio"]
+dependencies = ["flet==0.25.2", "pyogrio"]
 
 [tool.flet]
 android.adaptive_icon_background = "#ffffff"

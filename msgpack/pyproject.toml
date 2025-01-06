@@ -4,7 +4,7 @@ name = "msgpack_app"
 version = "1.0.0"
 description = ""
 authors = [{name = "Flet Developer", email = "your@email.com"}]
-dependencies = ["flet==0.25.1", "msgpack"]
+dependencies = ["flet==0.25.2", "msgpack"]
 
 [tool.flet]
 android.adaptive_icon_background = "#ffffff"
