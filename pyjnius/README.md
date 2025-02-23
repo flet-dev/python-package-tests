@@ -1,23 +1,26 @@
 # Flet app
 
-Flet app using Flet extension.
+## Run with Poetry
 
-To run the app:
-
-1. Install dependencies from pyproject.toml:
+1. Install dependencies from `pyproject.toml`:
 
 ```
 poetry install
 ```
 
-2. Build app:
-
-```
-poetry run flet build macos -v
-```
-
-3. Run app:
+2. Run the app:
 
 ```
 poetry run flet run
 ```
+
+## Run with UV
+
+1. Run the app:
+
+```
+uv run flet run
+```
+
+For more details on running the app, refer to the [Getting Started Guide](https://flet.dev/docs/getting-started/).
+To learn how to package the app for different platforms, check out the [Publishing Guide](https://flet.dev/docs/publish/).
