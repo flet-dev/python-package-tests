@@ -78,9 +78,14 @@ def main(page: ft.Page):
                 [
                     ft.Button("Get OS details", on_click=get_os_details),
                     ft.Button("Get Main Activity", on_click=get_activity),
-                    results := ft.Column(expand=True, scroll=ft.ScrollMode.AUTO),
-                ]
-            )
+                    results := ft.Column(
+                        expand=True,
+                        scroll=ft.ScrollMode.AUTO,
+                        horizontal_alignment=ft.CrossAxisAlignment.STRETCH,
+                    ),
+                ],
+            ),
+            expand=True,
         )
     )
 
