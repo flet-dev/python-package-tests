@@ -1,4 +1,4 @@
-# {{ cookiecutter.control_name }} app
+# PyJnius demo
 
 ## Run the app
 
