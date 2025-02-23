@@ -1,13 +1,19 @@
-# Flet app
+# {{ cookiecutter.control_name }} app
 
 ## Run the app
 
 ### uv
 
-Run the app:
+Run as a desktop app:
 
 ```
 uv run flet run
+```
+
+Run as a web app:
+
+```
+uv run flet run --web
 ```
 
 ### Poetry
@@ -18,10 +24,16 @@ Install dependencies from `pyproject.toml`:
 poetry install
 ```
 
-Run the app:
+Run as a desktop app:
 
 ```
 poetry run flet run
+```
+
+Run as a web app:
+
+```
+poetry run flet run --web
 ```
 
 For more details on running the app, refer to the [Getting Started Guide](https://flet.dev/docs/getting-started/).

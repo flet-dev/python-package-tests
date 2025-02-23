@@ -7,9 +7,9 @@ import flet as ft
 def main(page: ft.Page):
 
     def get_activity(e):
-        from jnius import autoclass
-
         try:
+            from jnius import autoclass
+
             activity_host_class = os.getenv("MAIN_ACTIVITY_HOST_CLASS_NAME")
             assert activity_host_class
             results.controls.append(
@@ -31,9 +31,9 @@ def main(page: ft.Page):
             results.update()
 
     def get_os_details(e):
-        from jnius import autoclass
-
         try:
+            from jnius import autoclass
+
             # Get Build and Version classes
             Build = autoclass("android.os.Build")
             Version = autoclass("android.os.Build$VERSION")

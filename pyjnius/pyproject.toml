@@ -24,3 +24,8 @@ copyright = "Copyright (C) 2025 by Flet"
 
 [tool.flet.app]
 path = "src"
+
+[tool.uv]
+dev-dependencies = [
+    "flet[all]==0.27.1",
+]
