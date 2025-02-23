@@ -30,7 +30,7 @@ To test an app on iPhone simulator
 | GDAL | 3.10.0 | |
 | google-crc32 | 1.6.0 | |
 | grpcio | 1.67.1 | |
-| jq | 1.8.0 |flet==0.25.2 android:white_check_mark: iOS:white_check_mark: |
+| jq | 1.8.0 | flet==0.25.2 android :white_check_mark: iOS :white_check_mark:  |
 | kiwisolver | 1.4.7 | |
 | lru-dict | 1.3.0 | |
 | lxml | 5.3.0 | |
@@ -38,8 +38,8 @@ To test an app on iPhone simulator
 | matplotlib | 3.9.2 | |
 | msgpack | 1.1.0 | |
 | msgspec | 0.8.16 | |
-| numpy | 2.1.1 | |
-| numpy | 1.26.4 |flet==0.25.2 android:white_check_mark: iOS:x: |
+| numpy | 2.1.1 | flet==0.25.2 android :white_check_mark: iOS :x:  |
+| numpy | 1.26.4 | |
 | opaque | 0.2.0 | |
 | opencv-python | 4.10.0.84 | |
 | pandas | 2.2.2 | |
