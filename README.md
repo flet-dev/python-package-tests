@@ -1,4 +1,11 @@
 # python-package-tests
+
+---
+
+**THIS REPOSITORY HAS BEEN ARCHIVED.** Mobile wheel tests are now [part of Flet Mobile Forge](https://github.com/flet-dev/mobile-forge).
+
+---
+
 Small apps testing Flet binary Python packages
 
 To test an app on Android device:
